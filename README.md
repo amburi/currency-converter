@@ -79,6 +79,9 @@ currency.accesssKey=<API_Key>
 * `gradle bootRun` command to run the server endpoint API in http://localhost:8080.
 * Run tests `gradle test`
 
-
-
-
+---
+### Future Goal
+* Reorganize conversion API `GET /convert`
+* Add validation `GET /convert`
+* Improve unit test cases
+* Upgrade Gradle, Spring Boot, and Junit version
