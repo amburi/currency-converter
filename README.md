@@ -56,12 +56,12 @@ Connection: keep-alive
 * Java 1.8.0_332
 * Gradle 4.10.x
 * Spring Boot 2.5.2
-* JUnit
+* JUnit 4.13.2
 * [exchangerate.host](https://exchangerate.host/) — Partner APIs
  
 ### Partner API
 
-[Exchange rates API](https://exchangerate.host/) is a simple and lightweight free service for current and historical foreign exchange rates & crypto exchange rates. These APIs are used for currency exchange.
+[Exchange rates API](https://exchangerate.host/) is a simple and lightweight free service for current and historical foreign exchange rates & crypto exchange rates. [ are used for currency exchange
 
 ---
 ## Configuration
@@ -76,7 +76,7 @@ currency.accesssKey=<API_Key>
 ```
 ---
 ## How to Run
-* `gradle bootRun` command to run the server endpoint API in [localhost:8080](http://localhost:8080).
+* `gradle bootRun` command to run the server endpoint API in http://localhost:8080.
 * Run tests `gradle test`
 
 
