@@ -7,6 +7,7 @@ An application for performing currency exchange rate conversions. The app allows
 - [Business Requirements](#business-requirements)
 - [Functional Requirements](#functional-requirements)
 - [API Endpoints](#api-endpoints)
+- [Sequence Diagram](#sequence-diagram)
 - [Example API Responses](#example-api-responses)
 - [Technologies Used](#technologies-used)
 - [Partner API](#partner-api)
@@ -41,6 +42,12 @@ API Base URL: `http://localhost:8080`
 - `GET /convert?from=EUR&to=INR&amount=100`: Returns the conversion rate.
   - `from` and `to` should be the 3-character currency codes available for exchange.
   - `amount` is the amount on which conversion information will be fetched and displayed.
+ 
+## Sequence Diagram
+
+The following sequence diagram illustrates the interactions between the Client, Server Application, and External API for fetching currency symbols and performing conversions:
+
+![Sequence Diagram](currency-converter-sequence-diagram.png)
 
 ## Example API Responses
 
